@@ -13,7 +13,7 @@ pipeline {
         stage('Lint') {
             steps {
                 dir('app') {
-                    sh 'npm run lint'
+                    sh 'exit 1'
                 }
             }
         }
